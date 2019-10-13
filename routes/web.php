@@ -15,7 +15,11 @@ Route::get('/',[
     'as'=>'home_path',
     'uses'=>'PagesController@home'
 ]);
-Route::get('/about', [
+Route::get('/about',[
     'as'=>'about_path',
     'uses'=>'PagesController@about'
+]);
+Route::get('/contact',[
+    'as'=>'contact_path',
+    'uses'=>'ContactController@create'
 ]);
