@@ -6,7 +6,7 @@ if (!function_exists('page_title')){
         if ($title === ''){
             return $base_title;
         }else{
-            return $title .'|'.$base_title;
+            return $title .'| '.$base_title;
         }
     }
 }
